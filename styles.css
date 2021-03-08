@@ -1,0 +1,75 @@
+.footer_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #343A40;
+    color: white;
+}
+.hours_info {
+    padding-left: 30px;
+}
+.email_info {
+    padding-left: 30px;
+}
+.form_info {
+    display: flex;
+    flex-direction: column;
+}
+.button_info {
+    margin: 15px;
+    color: white;
+    background-color: green;
+}
+.label_info {
+    text-align: center;
+}
+.history {
+    width: 40%;
+    padding: 30px;
+    margin: 30px;
+    background-color: lightblue;
+}
+.main_info {
+    display: flex;
+    flex-direction: row;
+}
+.poke_info {
+    width: 40%;
+    padding: 30px;
+    margin: 30px;
+    background-color: lightblue; 
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    .main_info {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .history_info {
+    display: flex;
+    justify-content: center;
+    
+    }
+    .footer_info {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .history {
+        width: 80%;
+    }
+    .poke_info {
+        width: 80%;     
+    }
+    .business_info {
+        padding-left: 30px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .hours_info {
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    }
